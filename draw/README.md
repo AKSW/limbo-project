@@ -6,7 +6,9 @@ With these scripts you can create diagrams in the style of the openly accessible
 The files `data.json`, `output.svg` and `settings.json` are already provided in the folder. They contain
 
 `data.json` - the metadata of datasets in the LOD cloud including the information on the mCloud (https://www.mcloud.de/) metatdata catalog
+
 `output.svg` - an empty .svg file which will contain the LOD diagram after the script has terminated
+
 `settings.json` - the settings for the diagram 
 
 ## Supplementary files
@@ -16,6 +18,6 @@ The files `data.json`, `output.svg` and `settings.json` are already provided in 
 ## Up to date source files
 This project was taken from the lod-cloud-draw project. In case you want to build this project from up to date sources, please go to https://github.com/lod-cloud/lod-cloud-draw. Build the project with 
 
-'cargo build --release'
+`cargo build --release`
 
-Add the files <data.json>, <settings.json> and <output.svg> to target/release to run the script.
+Add your files <data.json>, <settings.json> and <output.svg> to the subfolder target/release to run the script.
