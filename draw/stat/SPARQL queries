@@ -1,0 +1,25 @@
+## Count the number of triples ##
+
+SELECT (COUNT(*) as ?Triples) WHERE { ?s ?p ?o}
+
+##
+
+
+##
+Determine all URI objects in the mcloud metadata catalog (except the ones with a lmcse namespace) 
+
+SELECT DISTINCT ?object
+WHERE {
+  ?subject ?predicate ?object .
+  FILTER isIRI(?object) 
+  FILTER (!regex(str(?object), "^http://limbo-mCloudStatisticsEngine.org/metadata#"))
+}
+
+Results
+<http://www.w3.org/ns/dcat#Dataset>
+<http://purl.org/dc/terms/Agent>	
+<http://www.w3.org/ns/dcat#Distribution>	
+<http://www.w3.org/ns/dcat#Catalog>	
+<http://xmlns.com/foaf/0.1/Organization>
+##
+

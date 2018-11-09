@@ -1,0 +1,42 @@
+"limbo-mcloud": {
+    "links": []
+    "license": "http://www.opendefinition.org/licenses/cc-by-sa",
+    "description": {
+      "en": "This dataset contains metadata for data collections that are contained in the open data mcloud portal (https://www.mcloud.de/web/guest/informationen). The portal is maintained by the German Federal Ministry of Transport and Digital Infrastructure and offers mobility related information. Data collections are described with the help of the Data Catalog Vocabulary (DCAT).",
+    },
+    "triples": "29337",
+    "website": "https://www.limbo-project.org/",
+    "title": "limbo-mcloud",
+    "other_download": [],
+    "contact_point": {
+      "email": "info@eccenca.com",
+      "name": "Limbo Team - https://www.limbo-project.org/imprint/"
+    },
+    "example": [],
+    "keywords": [
+      "access-bulk",
+      "government",
+      "deref-vocab",
+      "format-lmcse",
+      "format-dcat",
+      "format-foaf",
+      "format-rdf",
+      "format-dcterms",
+      "lod",
+      "limbo"
+      "mobility"
+    ],
+    "namespace": "http://limbo-mCloudStatisticsEngine.org/metadata#",
+    "identifier": "limbo-mcloud",
+    "full_download": [
+      {
+        "status": "OK",
+        "title": "",
+        "media_type": "text/html",
+        "description": "Download",
+        "download_url": "https://github.com/lisa-wen/LIMBO-aksw"
+      }
+    ],
+    "doi": "",
+    "domain": "government"
+  },
