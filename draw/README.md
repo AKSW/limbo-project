@@ -9,13 +9,13 @@ Then copy `data.json`, `output.svg` and `settings.json` from lod-cloud-draw to l
 
 The files contain the following data
 
-`data.json` - the metadata of datasets in the LOD cloud including the information on the mCloud (https://www.mcloud.de/) metatdata catalog
+`data.json` - the metadata of datasets in the LOD cloud including the information from the mCloud (https://www.mcloud.de/) metatdata catalog. The 'limbo-mcloud' document is the last one in the file. At the moment, this document only contains dummy links to 2 other datasets in the LOD cloud. They will have to be replaced by real links in the future.
 
 `output.svg` - an empty .svg file which will contain the LOD diagram after the script has terminated
 
 `settings.json` - the settings for the diagram 
 
-Please note that the script applies a minimization function to determine the optimal parameters for visualization. It either terminates after convergence or 10000 iterations. In case you are generating a diagram for the entire LOD cloud, this may take a couple of hours. 
+Please note that the script applies a minimization function to determine the optimal parameters for visualization. It either terminates after convergence or after 10000 iterations. In case you are generating a diagram for the entire LOD cloud, completion of the diagram generation may take a couple of hours. 
 
 ## Supplementary files
 `stat` - folder to store example SPARQL queries that explore statistics from LIMBO datasets
