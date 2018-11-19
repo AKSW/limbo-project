@@ -44,6 +44,11 @@
             "title": "User Generated",
             "domain": "user_generated",
             "colour": "#d84d8c"
+        },
+        {
+            "title": "Limbo",
+            "domain": "limbo",
+            "colour": "#9ac31b"
         }
     ],
     "fixed_points": {"dbpedia": [0,0]},
