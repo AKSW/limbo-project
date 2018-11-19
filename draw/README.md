@@ -20,9 +20,11 @@ Please note that the script applies a minimization function to determine the opt
 ## Supplementary files
 `stat` - folder to store example SPARQL queries that explore statistics from LIMBO datasets
 
-`mcloud-bubble`- metadata catalog of the mcloud, that was added to the public https://lod-cloud.net/lod-data.json to form `data.json`
+`mcloud-bubble`- metadata catalog of the mcloud, that was added to the public https://lod-cloud.net/lod-data.json to form `data.json`. Currently the mcloud-bubble only has a dummy link to DBpedia.
 
-`limbo.svg` - the visualization of the public LOD cloud plus the LIMBO bubbles (currently only the mCloud metadata catalog
+`limbo.svg` - the visualization of the public LOD cloud plus the LIMBO bubbles (currently only the mCloud metadata catalog)
+
+`limbo_legend.svg` - the visualization of the public LOD cloud plus the LIMBO bubbles (currently only the mCloud metadata catalog) plus a new Limbo category that appears in the legend. 
 
 ## Up to date source files
-This project was taken from the lod-cloud-draw project. In case you want to build this project from up to date sources, please go to https://github.com/lod-cloud/lod-cloud-draw to build you binaries from fresh sources.
+This project was taken from the lod-cloud-draw project. In case you want to build this project from up to date sources, please go to https://github.com/lod-cloud/lod-cloud-draw to build your binaries from fresh sources.
