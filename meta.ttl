@@ -1,5 +1,5 @@
 limbo:bahnhoefe_rni_graph
   	a dcat:Distribution;
 	lmcse:accessType lmcse:RDF ;
-	dcterms:issued " Fr 8. Feb 15:56:29 CET 2019 "^^xsd:dateTime ;
+	dcterms:issued "Fr 8. Feb 17:13:05 CET 2019" ;
 	dcterms:title "RDF distribution of dataset-Stationsdaten-RNI--552695060" .
