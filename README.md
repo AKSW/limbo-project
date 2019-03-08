@@ -1,2 +1,4 @@
 # limbo-project
-This the repository for the LIMBO project https://www.limbo-project.org/
+This a repository of the LIMBO project https://www.limbo-project.org/
+
+It contains the dataset descriptions environment for hosting on a linux server and using datasets from https://gitlab.com/limbo-project
